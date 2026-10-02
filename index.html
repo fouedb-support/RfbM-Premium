@@ -68,13 +68,25 @@
 
 <div class="player-wrapper">
 
-<div class="player">
+<div id="lockScreen">
+<h3>Accès protégé</h3>
+
+<input
+type="password"
+id="accessCode"
+placeholder="Entrez votre code">
+ 
+<button id="unlockBtn">
+Déverrouiller
+</button>
+ 
+<div id="errorMsg"></div>
+</div>
+
+<div id="player" class="player" style="display:none;">
 
 <div class="player-layout">
 
-<!-- =================================
-         LEFT
-    ================================== -->
 
     <div class="left-section">
 
@@ -87,7 +99,6 @@
                 src="https://radiofouedbmusic.weebly.com/uploads/2/7/3/9/27392993/noalbum-white-2.png"
                 alt="cover"> 
 
-            <!-- LIVE -->
 
             <div class="live-badge">
 
@@ -97,7 +108,6 @@
 
             </div>
 
-            <!-- RADIO -->
 
             <div class="rfbm">
 
@@ -115,15 +125,9 @@
     
     <div class="section-separator"></div>
     
-    <!-- =================================
-         RIGHT COLUMN
-    ================================== -->
 
     <div class="right-column">
     
-    <!-- =================================
-         CENTER
-    ================================== -->
 
     <div class="center-section">
 
@@ -149,7 +153,6 @@
 
         </div>
 
-        <!-- PROGRESS -->
 
         <div class="progress-container">
 
@@ -161,7 +164,6 @@
 
         </div>
 
-        <!-- TIMER -->
 
         <div class="timer">
 
@@ -193,7 +195,6 @@
 
         </div>
 
-        <!-- NETWORK -->
 
         <div
             id="networkStatus"
@@ -213,7 +214,6 @@
 
         </div>
 
-        <!-- VOLUME -->
 
         <div class="volume-container">
 
@@ -232,15 +232,11 @@
     
     </div>
     
-    <!-- =================================
-         RIGHT
-    ================================== -->
 
     <div class="right-section">
 
     <div class="controls-section">
         
-        <!-- CODEC INFO -->
 
         <div
             id="codecInfo">
@@ -279,7 +275,6 @@
 
         </div>
         
-        <!-- CONTROLS -->
 
         <div class="controls">
 
@@ -340,7 +335,6 @@
 
 </div>
 
-<!-- TOAST -->
 
 <div
     id="toast"
