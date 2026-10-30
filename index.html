@@ -20,6 +20,42 @@
 
 <body>
 
+<div id="lockScreen">
+<h3>Restricted access</h3>
+
+<input
+type="email"
+id="accessEmail"
+placeholder="Your e-mail">
+
+<input
+type="password"
+id="accessCode"
+placeholder="Enter your code">
+ 
+<button id="unlockBtn">Unlock</button>
+
+        <a
+            id="radioBackBtn"
+            href="https://fouedb-support.github.io/RfbM-Playlists-Player-Pro/"
+            target="_self"
+            rel="noopener noreferrer"
+        >
+            Return To RfbM Playlists
+        </a>
+                
+        <a
+            id="rfbmSubscribeLink"
+            href="https://radiofouedbmusic.weebly.com/subscribe.html"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Subscribe to RfbM (Live+Playlists)
+        </a>
+ 
+<div id="errorMsg"></div>
+</div>
+
 <button id="modeSwitch" class="mode-btn autodj-mode">
   <img class="icon" src="https://radiofouedbmusic.weebly.com/uploads/2/7/3/9/27392993/autodj-rfbm.png" alt="AutoDJ" />
 </button>
@@ -72,42 +108,6 @@
 
 <div class="player-wrapper">
 
-<div id="lockScreen">
-<h3>Restricted access</h3>
-
-<input
-type="email"
-id="accessEmail"
-placeholder="Your e-mail">
-
-<input
-type="password"
-id="accessCode"
-placeholder="Enter your code">
- 
-<button id="unlockBtn">Unlock</button>
-
-        <a
-            id="radioBackBtn"
-            href="https://fouedb-support.github.io/RfbM-Playlists-Player-Premium/"
-            target="_self"
-            rel="noopener noreferrer"
-        >
-            Return To RfbM Playlists
-        </a>
-                
-        <a
-            id="rfbmSubscribeLink"
-            href="https://radiofouedbmusic.weebly.com/subscribe.html"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Subscribe to RfbM (Live+Playlists)
-        </a>
- 
-<div id="errorMsg"></div>
-</div>
-
 <div id="player" class="player" style="display:none;">
 
 <div class="player-layout">
@@ -123,8 +123,6 @@ placeholder="Enter your code">
                 src="https://radiofouedbmusic.weebly.com/uploads/2/7/3/9/27392993/noalbum-white-2.png"
                 alt="cover"> 
 
-            <!-- LIVE -->
-
             <div class="live-badge">
 
                 <span class="live-dot"></span>
@@ -132,8 +130,6 @@ placeholder="Enter your code">
                 LIVE
 
             </div>
-
-            <!-- RADIO -->
 
             <div class="rfbm">
 
@@ -150,11 +146,9 @@ placeholder="Enter your code">
     </div>
     
     <div class="section-separator"></div>
-    
 
     <div class="right-column">
     
-
     <div class="center-section">
 
     <div class="info-section">
@@ -190,7 +184,6 @@ placeholder="Enter your code">
 
         </div>
 
-
         <div class="timer">
 
             <span id="elapsed">
@@ -221,7 +214,6 @@ placeholder="Enter your code">
 
         </div>
 
-
         <div
             id="networkStatus"
             class="network-online">
@@ -240,7 +232,6 @@ placeholder="Enter your code">
 
         </div>
 
-
         <div class="volume-container">
 
             <i class="fas fa-volume-up"></i>
@@ -257,7 +248,6 @@ placeholder="Enter your code">
     </div>
     
     </div>
-    
 
     <div class="right-section">
 
@@ -271,7 +261,6 @@ placeholder="Enter your code">
                 MP3 • CODEC • 320 kbps
 
         </div>
-
 
         <div class="codec-buttons">
 
@@ -300,7 +289,6 @@ placeholder="Enter your code">
             </button>
 
         </div>
-        
 
         <div class="controls">
 
